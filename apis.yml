@@ -1,7 +1,27 @@
 aid: honeyhomes
 name: Honeyhomes
-description: Honeyhomes is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Honey Homes is a home-maintenance membership service that pairs each
+  member with a dedicated, vetted handyman who handles repairs, upgrades, seasonal
+  upkeep, and preventive maintenance around the house. Members book visits, add tasks,
+  receive photo updates, and stay connected to their handyman and team through a
+  companion mobile app. Founded in 2021 by Vishwas and Avantika Prabhakara and backed
+  by Khosla Ventures, the company operates as a licensed, bonded, and insured General
+  Contractor and serves select California and Texas markets including the San
+  Francisco Bay Area and Dallas. Surfaced in the API Evangelist network as a
+  Khosla Ventures portfolio company; the company exposes a consumer mobile app but
+  no public developer API surface at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6309594d34462c57e10070e1/66c706fcca715a603ac6b0df_hh-open-graph--optm.png
 url: https://raw.githubusercontent.com/api-evangelist/honeyhomes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Home Services
+- Home Maintenance
+- Handyman
+- Property Management
+- Membership
+- Consumer Services
+- Real Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/honeyhomes-domain-security.yml
 - type: Website
   url: https://www.honeyhomes.com/
+- type: Pricing
+  url: https://www.honeyhomes.com/pricing
+- type: SignUp
+  url: https://hello.honeyhomes.com
+- type: Support
+  url: https://www.honeyhomes.com/faqs
+- type: Blog
+  url: https://www.honeyhomes.com/blog
+- type: TermsOfService
+  url: https://www.honeyhomes.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.honeyhomes.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
