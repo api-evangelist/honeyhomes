@@ -10,6 +10,17 @@ description: Honey Homes is a home-maintenance membership service that pairs eac
   Francisco Bay Area and Dallas. Surfaced in the API Evangelist network as a
   Khosla Ventures portfolio company; the company exposes a consumer mobile app but
   no public developer API surface at this time.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
